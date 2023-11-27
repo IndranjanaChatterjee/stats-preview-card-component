@@ -14,8 +14,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution](https://github.com/IndranjanaChatterjee/stats-preview-card-component)
+- Live Site URL: [live site URL](https://stats-overview.netlify.app/)
 
 ## My process
 
@@ -36,7 +36,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ## Author
 
 -
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [IndranjanaChatterjee](https://www.frontendmentor.io/profile/IndranjanaChatterjee)
 
 
 
