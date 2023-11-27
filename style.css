@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Belanosima:wght@600&family=Bricolage+Grotesque&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@600&family=Fraunces:wght@400;700&family=Freehand&family=Inter:wght@700&family=Lobster&family=Manrope:wght@800&family=Merriweather:ital,wght@0,700;1,400;1,900&family=Montserrat:wght@400;500;600&family=Mooli&family=Outfit:wght@200;400;700&family=Playfair+Display:wght@600&family=Playfair:wght@600&family=Raleway:wght@400;500&family=Red+Hat+Display:wght@600;900&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Belanosima:wght@600&family=Bricolage+Grotesque&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@600&family=Fraunces:wght@400;700&family=Freehand&family=Inter:wght@700&family=Lexend+Deca&family=Lobster&family=Manrope:wght@800&family=Merriweather:ital,wght@0,700;1,400;1,900&family=Montserrat:wght@400;500;600&family=Mooli&family=Outfit:wght@200;400;700&family=Playfair+Display:wght@600&family=Playfair:wght@600&family=Raleway:wght@400;500&family=Red+Hat+Display:wght@600;900&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(233, 47%, 7%);
+  flex-direction: column;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   background-color: hsl(244, 38%, 16%); 
+  
+  border-radius: 1rem;
+  flex-wrap: wrap-reverse;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  margin-top: 1rem;
+}
+h1
+{
+    margin-bottom: 2rem;
+    font-size:2rem;
+    text-align: left;
+}
+.top,
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+ 
+  
+}
+.top
+{
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+
+
+.down {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+p {
+    text-align: left;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    
+    
+    
+  }
+  .middle
+  {
+    margin-bottom: 2.5rem;
+    line-height: 1.35rem;
+  }
+.info {
+  flex-direction: column;
+  width: 21rem;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+
+  margin: 3rem;
+}
+.violet {
+  color: hsl(277, 64%, 61%);
+}
+.pic {
+  width: 25rem;
+  height: 25rem;
+  background-image: url("./images/image-header-desktop.jpg");
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(170, 92, 219, 0.45);
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.attribution
+{
+    color:hsla(0, 0%, 100%, 0.75);
+    margin: 1.5rem;
+}
+@media (min-width: 900px) {
+  .pic {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+}
+@media (max-width: 900px) {
+  .pic {
+    width: 20rem;
+    height: 20rem;
+    background-image: url("./images/image-header-mobile.jpg");
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem; 
+  }
+  .overlay {
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+  }
+  .bottom {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main {
+    width: 20rem;
+    margin: 2rem;
+  }
+  h1
+  {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .middle
+  {
+    text-align: center;
+  }
+  .p
+  {
+    margin: 1.5rem;
+  }
+}
